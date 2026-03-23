@@ -1,0 +1,40 @@
+# Xcode generated project (regenerate via: xcodegen generate)
+*.xcodeproj/
+*.xcworkspace/
+
+# Build artifacts
+DerivedData/
+build/
+Build/
+*.build/
+
+# Xcode user data
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code local state
+.claude-personal/
+
+# Archives & exports
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Environment
+.env
+.env.*
