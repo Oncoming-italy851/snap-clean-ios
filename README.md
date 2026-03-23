@@ -7,6 +7,16 @@ A native iOS app that helps users clean up their photo library. Core UX is a Tin
 - **No third-party dependencies** — Apple frameworks only
 - MVVM + Actors + SwiftData architecture
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/01-swipe-home.png" width="19%" />
+  <img src="docs/screenshots/05-swipe-session.png" width="19%" />
+  <img src="docs/screenshots/07-session-complete.png" width="19%" />
+  <img src="docs/screenshots/02-cleanup-tools.png" width="19%" />
+  <img src="docs/screenshots/03-storage-dashboard.png" width="19%" />
+</p>
+
 ## Features
 
 - Swipe-based photo review (keep/delete)
