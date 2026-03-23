@@ -1,5 +1,8 @@
 # SnapClean
 
+[![CI](https://github.com/360ghar/snap-clean-ios/actions/workflows/ci.yml/badge.svg)](https://github.com/360ghar/snap-clean-ios/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A native iOS app that helps users clean up their photo library. Core UX is a Tinder-style swipe interface for reviewing media.
 
 - **Swift/SwiftUI**, iOS 17+, iPhone only
@@ -56,3 +59,7 @@ SnapClean/
 ```
 
 Configuration lives in `project.yml` (XcodeGen). The `.xcodeproj` is generated and not checked into version control.
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
